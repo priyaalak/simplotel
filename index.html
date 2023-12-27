@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simplotel</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#order">Order</a>
+        <a href="#food">Food</a>
+        <a href="#restaurant">Restaurant</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact Us</a>
+        <a href="#" class="toggle-icon" onclick="toggleNav()">
+            <img src="image/menu.png" alt="Toggle" width="14px" /></a>
+    </nav>
+    <div class="container">
+        <div class="left-div">
+            <h1 class="h1tag">LOREM IPSUM</h1>
+            <p class="p1tag">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+                id est vitae dolor rhoncus tristique. Maecenas metus quam,
+                rhoncus euismod lorem in, sollicitudin viverra eros. Donec
+                dictum luctus quam ut tristique. Curabitur nec faucibus purus.
+                Quisque congue sem nec justo mollis, in tincidunt erat pretium.
+                Sed pulvinar, massa ac porta viverra.</p>
+            <button class="btn">Click Me</button>
+        </div>
+
+        <div class="right-div">
+            <img class="img0" src="image/img1.jpg" alt="Image" />
+        </div>
+    </div>
+    <div class="container">
+        <div class="left-div2">
+            <div class="imgfooter">
+                <div class="img1">
+                    <img src="image/img2.jpg">
+                    <img src="image/img3.jpg">
+                </div>
+                <div class="img2">
+                    <img src="image/img4.jpg">
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="right-div2">
+            <div class="card">
+                <h1 class="h2tag">LOREM IPSUM</h1>
+                <p class="p2tag">LOREM IPSUM SET ADEMIR</p>
+                <div class="arrowbtn">
+                    <a href="#" class="button3">Click Me</a>
+                    <img class="imgar" src="image/arrow.png" alt="Button Image">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function toggleNav() {
+            document.querySelector("nav").classList.toggle("show-links");
+        }
+    </script>
+</body>
+
+</html>
